@@ -1,6 +1,6 @@
 ﻿@{
 # Script module or binary module file associated with this manifest.
-RootModule = 'PSReflect.psm1'
+ModuleToProcess = 'PSReflect.psm1'
 
 # Version number of this module.
 ModuleVersion = '1.1.1.0'
