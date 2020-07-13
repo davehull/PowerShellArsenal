@@ -3,7 +3,7 @@
 ModuleToProcess = 'PowerShellArsenal.psm1'
 
 # Version number of this module.
-ModuleVersion = '1.0.0.0'
+ModuleVersion = '1.0.1.0'
 
 # ID used to uniquely identify this module
 GUID = '55edc9c7-e790-4e78-88d6-0492cdcc4b3c'
@@ -55,6 +55,7 @@ FunctionsToExport = @('Get-CSDisassembly',
                       'Get-Entropy',
                       'Get-Member',
                       'Get-PE',
+                      'Get-PEB',
                       'Find-ProcessPEs',
                       'Get-LibSymbols',
                       'Get-ObjDump',
@@ -70,7 +71,12 @@ FunctionsToExport = @('Get-CSDisassembly',
                       'Remove-HostsFileEntry',
                       'Remove-AssemblySuppressIldasmAttribute',
                       'New-FunctionDelegate',
-                      'Get-NtSystemInformation')
+                      'Get-NtSystemInformation',
+                      'Register-ProcessModuleTrace',
+                      'Get-ProcessModuleTrace',
+                      'Unregister-ProcessModuleTrace',
+                      'Invoke-LoadLibrary',
+                      'New-DllExportFunction')
 
 # Cmdlets to export from this module
 CmdletsToExport = ''
